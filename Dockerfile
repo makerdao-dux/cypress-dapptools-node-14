@@ -1,5 +1,5 @@
 # Extend cypress browsers node to use cypress
-FROM cypress/browsers:node14.17.0-chrome91-ff89
+FROM cypress/browsers:node14.19.0-chrome100-ff99-edge
 
 RUN apt-get update && apt-get -y install sudo
 
